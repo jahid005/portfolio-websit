@@ -1,0 +1,98 @@
+/* Essensial css */
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+    color:#111;
+}
+
+.menu-img img{
+    max-width: 100%;
+}
+.main-menu{
+    background: #fff;
+}
+/* menu-list */
+.list-menu{
+    border-right:1px solid rgb(168, 168, 168);
+}
+.menu-list{}
+.menu-list ul{
+    text-align:left;
+}
+.menu-list ul li{
+    display: inline-block;
+    line-height: 58px;
+}
+.menu-list ul li a{
+    display:block;
+    font-weight:700;
+    padding:0 2px;
+
+}
+.social-menu{}
+.social-menu ul li a{
+    display:block;
+    font-weight:700;
+    padding:0 2px;
+
+}
+.social-menu ul{
+    text-align:right;
+}
+.social-menu ul li{
+    display: inline-block;
+    line-height: 58px;
+}
+.menu-contact{}
+.menu-contact ul {
+    margin-top: 14px;
+}
+.menu-contact ul li{
+    display:inline-block;
+    
+}
+.menu-contact ul li:nth-last-child(2){
+    margin-right: 20px;
+}
+.menu-contact ul li a{}
+.menu-contact ul li a button{
+    background:#111;
+    color:#fff;
+    border: none;
+    padding: 5px;
+    border-radius:5px;
+}
+.menu-contact ul li a span{}
+
+/* Banner */
+.banner-section{
+    background-image:url(./img/Abstract\ Simple\ Dark\ Zoom\ Background.png);
+    background-repeat:no-repeat;
+    padding:100px 80px;
+    color: #fff;
+
+}
+.banner-dtails h2{
+    color:#f39c12;
+} 
+.banner-dtails ul{}
+.banner-dtails ul li{
+    display:inline-block;
+}
+.banner-dtails ul li .card{
+    color: #111;
+    padding: 5px;
+}
+.banner-btn{
+    margin-top:40px;
+}
+.banner-btn .one{
+    margin-right:15px;
+}
+.banner-img img{
+    max-width: 100%;
+}
