@@ -15,12 +15,6 @@ a{
 .main-menu{
     background: #fff;
 }
-img{
-    max-width: 100%;
-}
-body{
-    color:#fff;
-}
 /* menu-list */
 .list-menu{
     border-right:1px solid rgb(168, 168, 168);
@@ -78,7 +72,7 @@ body{
 .banner-section{
     background-image:url(./img/Abstract\ Simple\ Dark\ Zoom\ Background.png);
     background-repeat:no-repeat;
-    padding:100px 0;
+    padding:100px 80px;
     color: #fff;
 
 }
@@ -101,173 +95,4 @@ body{
 }
 .banner-img img{
     max-width: 100%;
-}
-.baner-img img{
-    height: 100%;
-}
-
-/*About us*/
-.about-us{
-    background:rgb(33,26,44);
-
-}
-.about-dt h2{
-    font-weight: 800;
-    margin-bottom:35px;
-}
-.about-dt p{
-    line-height:2em;
-}
-.about-sc{
-    margin-top:80px;
-}
-.about-sc ul{}
-.about-sc ul li{
-    display:inline-block;
-    /* position: relative;
-    z-index: 1; */
-    margin:0 15px;
-}
-.about-sc ul li a span::after{
-    content:"";
-    position:absolute;
-    left: -6px;
-    top: 1px;
-    height:50px;
-    width:50px;
-    line-height:50px;
-    border-radius:5px;
-    background: #0d2c8a;
-    z-index:-1;
-}
-.about-sc ul li a .social-git::after{
-    content:"";
-    position:absolute;
-    left: -6px;
-    top: 1px;
-    height:50px;
-    width:50px;
-    line-height:50px;
-    border-radius:5px;
-    background: #000000;
-    z-index:-1;
-}
-.about-sc ul li a{
-    color:#fff;
-}
-.about-sc ul li a span{
-    position:relative;
-    z-index:1;
-    font-size:35px;
-}
-.about-sc ul li a .social-tittle{
-    color:#fff;
-    margin-left: 15px;
-}
-.about-sc ul li a .social-git{
-    position:relative;
-    z-index:1;
-}
-
-/* skill */
-.skill-section{
-    background:rgb(33,26,44);
-}
-.p-b{}
-.p-b li{
-    list-style: none;
-}
-.bar{
-    border: 1px solid #fff;
-    height:10px;
-    display:block;
-    /* background:#fff; */
-}
-.p-b li .bar .html{
-    display: block;
-    height: 90%;
-    background:rgb(133,117,230);
-    width: 90%;
-}
-.p-b li .bar .css{
-    display: block;
-    height:90%;
-    background: rgb(133,117,230);
-    width:70%;
-}
-.p-b li .bar .js{
-    display: block;
-    height:90%;
-    background: rgb(133,117,230);
-    width:7%;
-}
-
-/* Blog */
-.Blog-section{
-    background:rgb(33,26,44);
-}
-.blog-dt{}
-.blog-dt h2{
-    font-weight:700;
-}
-.blog-dt p{}
-
-.blog-m{}
-.blog-m ul{}
-.blog-m ul li{
-    display:inline-block;
-    margin:0 5px;
-}
-.blog-m ul li a{
-    display:block;
-}
-.blog-image .card{
-    margin:8px auto;
-    height: 200px;
-    border:none;
-}
-.blog-image .card img{
-    max-height:100%;
-    max-width:100%;
-}
-
-/* Award */
-.award-section{
-    background:rgb(33,26,44);
-}
-.list-1{
-    display:block;
-    width:48%;
-    background:red;
-}
-.award-work{}
-.award-work ul{
-    width:100%;
-    margin:auto;
-}
-.award-work ul li{
-    display:inline-block;
-    width:19%;
-    text-align: center;
-    margin:auto;
-}
-.award-work ul li .card{
-    background:rgb(59, 21, 228);
-    box-shadow:3px 3px 30px rgb(105, 74, 243);
-}
-
-/* footer */
-.footer-section{
-    background:#111;
-}
-.footer{
-    text-align:center;
-}
-.footer-icon span{
-    display:block;
-    color: #fdb447;
-    font-size:25px;
-}
-.footer-icon a{
-    color:#fff;
 }
